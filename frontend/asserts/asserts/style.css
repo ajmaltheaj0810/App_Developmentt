@@ -1,0 +1,115 @@
+
+body {
+  font-family: Arial, sans-serif;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f2f2f2;
+  }
+  .scn{
+    background-image: url('../asserts/images/ibc.jpeg');
+    height:100vh;
+  }
+.welcome{
+  position: relative;
+  float: left;
+  top:25%;
+  left:12%;
+  font-size: 32px;
+}
+  .scn img{
+    float: left;
+    width:28%;
+    height:36%;
+    transform: translate(38%,50%);
+  }
+  .container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.566);
+    width: 300px;
+  }
+  .sncontainer {
+    background-color:rgba(255, 255, 255, 0.978);;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.566);
+    float: right;
+    width: 390px;
+    position: relative;
+    top:18vh;
+    left:-19%;
+  }
+  .sncontainer-butterfly h1{
+    transform: translate(8%,46%);
+  }
+  h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+     position: relative;
+    box-sizing: border-box;
+    outline: transparent;
+
+  }
+  
+  button {
+    width: 100%;
+    margin-top: 10.2px;
+    padding: 10px;
+    background-color:#FF8343;
+    font-size: 18px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: rgb(176, 80, 63);
+  }
+  
+  .error {
+    color: red;
+    margin-top: 10px;
+  }
+
+  .asksignup{
+    margin-top: 30px;
+    margin-left: 9px;
+    margin-bottom: 15px;
+  }
+  .asksignup a{
+    text-decoration: none;
+  }
+
+.availability{
+  margin-top: 50px;
+  display: flex;
+  position: absolute;
+  left:9%;
+}
+.availability div{
+  margin-left: 95px;
+}
+.center h3{
+  font-size: 28px;
+  position: relative;
+  margin-top: 14%;
+  margin-left: 4%;
+}
